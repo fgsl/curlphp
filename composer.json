@@ -1,0 +1,23 @@
+{
+    "name" : "fgsl/curlphp",
+    "description" : "PHP proxy for curl aimed to API testing",
+    "type" : "console",
+    "keywords" : [
+        "administration",
+        "console", 
+        "fgsl",
+        "curl",
+        "curlphp"
+    ],
+    "homepage" : "https://github.com/fgsl/curlphp",
+    "license" : "LGPL-3.0-only",	
+    "require" : {
+        "php" : "^8.1",
+        "phing/phing" : "^2.16"
+    },    
+    "autoload" : {
+    },
+    "config" : {
+        "secure-http" : false
+    }
+}
